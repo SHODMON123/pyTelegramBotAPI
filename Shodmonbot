@@ -1,0 +1,16 @@
+# pip install pyTelegramBotAPI 
+print(print(print(print(# foydalanuvchi nomi
+  usernamen = fyda.username
+  
+# bu "matn" ozgaruvchisiga, jonatiladigan matn kiritiladi
+  # matnni "Bold" korinishda jonatish
+  matn = "<b>Assalom alaykum, </b>"
+  # matnni "Italic" korinishda jonatish
+  matn += "siz bilan SHODMON"
+  
+# foydalanuvchiga xabar jonatish
+  bot.send_message(user_id, matn, parse_mode="HTML")
+  
+
+# bot har doim ishlashi uchun
+bot.polling()
